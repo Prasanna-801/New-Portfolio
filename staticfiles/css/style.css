@@ -1,0 +1,188 @@
+/* Global Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+/* Header Styles */
+header {
+    background: url('/static/images/header-bg.jpg') no-repeat center center/cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 4rem;
+    color: #fff;
+    margin-bottom: 10px;
+    animation: fadeInDown 2s ease-in-out;
+}
+
+header p {
+    font-size: 1.5rem;
+    color: #ddd;
+    animation: fadeInUp 2s ease-in-out;
+}
+
+/* Projects Section */
+/* General carousel styling */
+.carousel-wrapper {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 100vh; /* Full viewport height */
+    background-color: #343a40; /* Same background color as header */
+}
+
+/* Inner container for carousel items */
+.carousel-inner {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+/* Carousel item styling */
+.carousel-item {
+    min-width: 100%; /* Each item takes up the full width */
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full viewport height */
+}
+
+/* Project card styling */
+.project-card {
+    max-width: 500px; /* Increased card width */
+    width: 100%;
+    margin: 0 auto;
+    border: none;
+    background-color: #fff;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2); /* Enhanced shadow for depth */
+    transition: transform 0.3s;
+}
+
+.project-card:hover {
+    transform: scale(1.05); /* Slight scale effect on hover */
+}
+
+/* Card image styling */
+.card-img-top {
+    height: 300px; /* Increased image height */
+    object-fit: cover; /* Ensure the image covers the area */
+    border-bottom: 1px solid #ddd; /* Optional: separator line */
+}
+
+/* Button styling */
+.btn {
+    margin: 0 10px;
+}
+
+/* Carousel control buttons */
+.carousel-control-prev,
+.carousel-control-next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.7); /* Dark transparent background */
+    border: none;
+    padding: 15px;
+    cursor: pointer;
+    z-index: 1000;
+    color: white; /* White arrow color */
+    font-size: 24px; /* Larger arrow size */
+}
+
+/* Previous control button positioning */
+.carousel-control-prev {
+    left: 20px;
+}
+
+/* Next control button positioning */
+.carousel-control-next {
+    right: 20px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .project-card {
+        max-width: 90%; /* Expand width on smaller screens */
+    }
+
+    .card-img-top {
+        height: 200px; /* Adjust image height on smaller screens */
+    }
+
+    .carousel-control-prev,
+    .carousel-control-next {
+        font-size: 18px; /* Slightly smaller arrows on smaller screens */
+        padding: 10px;
+    }
+}
+
+
+/* About Me Section */
+#about {
+    background-color: #f1f1f1;
+    padding: 60px 0;
+}
+
+#about h2 {
+    color: #333;
+    margin-bottom: 40px;
+}
+
+#about p {
+    font-size: 1.2rem;
+    color: #555;
+}
+
+/* Contact Section */
+#contact {
+    background-color: #fff;
+    padding: 60px 0;
+}
+
+#contact h2 {
+    color: #333;
+    margin-bottom: 40px;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+}
+
+footer p {
+    margin: 0;
+}
+
+/* Animations */
+@keyframes fadeInDown {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}

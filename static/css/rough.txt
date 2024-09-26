@@ -1,0 +1,38 @@
+projects_data = [
+    {
+        'title': 'Sentiment Analysis',
+        'description': 'Sentiment Analysis Chatbot is an intelligent conversational agent that uses Natural Language Processing (NLP) and machine learning to classify user sentiments as positive, negative, or neutral. By employing models like Logistic Regression, Naive Bayes, and LSTM/GRU, the chatbot dynamically analyzes user inputs and delivers personalized responses. It's ideal for customer support, social media analysis, and feedback evaluation, providing valuable insights into customer satisfaction and user engagement.',
+        'image': 'images/chatbot.png',  
+        'github_link': 'https://github.com/Prasanna-801/Sentiment-analysis-Chatbot',
+        'live_demo': 'https://your_live_demo_link/project6'
+    }
+],
+    {
+        'title': 'Project 7',
+        'description': 'Description of Project 7',
+        'image': 'project_images/project7.jpg',
+        'github_link': 'https://github.com/your_github/project7',
+        'live_demo': 'https://your_live_demo_link/project7'
+    },
+    {
+        'title': 'Project 8',
+        'description': 'Description of Project 8',
+        'image': 'project_images/project8.jpg',
+        'github_link': 'https://github.com/your_github/project8',
+        'live_demo': 'https://your_live_demo_link/project8'
+    },
+    {
+        'title': 'Project 9',
+        'description': 'Description of Project 9',
+        'image': 'project_images/project9.jpg',
+        'github_link': 'https://github.com/your_github/project9',
+        'live_demo': 'https://your_live_demo_link/project9'
+    },
+    {
+        'title': 'Project 10',
+        'description': 'Description of Project 10',
+        'image': 'project_images/project10.jpg',
+        'github_link': 'https://github.com/your_github/project10',
+        'live_demo': 'https://your_live_demo_link/project10'
+    }
+]
